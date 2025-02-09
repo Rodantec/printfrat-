@@ -30,6 +30,11 @@ int ft_putnbr(int x)
         write(1, "-2147483648", 11);
         return 11;
     }
+    if (x == 0)
+    {
+        write(1, "0", 1);
+        return 1;
+    }
     if(x < 0)
     {
         ft_putchar('-');
