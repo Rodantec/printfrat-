@@ -148,5 +148,10 @@ int main()
  i = ft_printf("%x\n", 42);
  j = printf("%x\n", 42);
  printf("%d %d\n", i, j);
-
+i =  ft_printf("%d\n", 2147483647);
+ j = printf("%d\n", 2147483647);
+ printf("%d %d\n", i, j);
+ i =  ft_printf("%d\n", 0);
+ j = printf("%d\n", 0);
+ printf("%d %d\n", i, j);
 }
